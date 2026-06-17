@@ -1,18 +1,12 @@
-# My Vocabulary – LingoBreeze
+#lingobreeze
 
-A complete implementation of the **My Vocabulary** feature for the **LingoBreeze** language-learning app. This project demonstrates a production-ready vocabulary management system built with Clean Architecture principles, Firebase integration, and a scalable Node.js backend.
+A complete implementation of the **My Vocabulary** feature for the **lingobreeze** language-learning app. This project demonstrates a production-ready vocabulary management system built with Clean Architecture principles, Firebase integration, and a scalable Node.js backend.
 
 ---
 
 ## Features
 
 * Add new vocabulary words and phrases
-* Edit and update saved vocabulary entries
-* Delete vocabulary items
-* Search and filter vocabulary efficiently
-* Organize personal vocabulary collections
-* Track vocabulary learning progress
-* Secure user authentication with Firebase Authentication
 * Real-time cloud synchronization using Firebase Firestore
 * RESTful API integration with Node.js backend
 * Clean and responsive Flutter UI
@@ -23,10 +17,8 @@ A complete implementation of the **My Vocabulary** feature for the **LingoBreeze
 
 * Flutter
 * Dart
-* Firebase Authentication
 * Cloud Firestore
 * Node.js
-* Express.js
 * Clean Architecture
 
 ---
@@ -54,41 +46,71 @@ A complete implementation of the **My Vocabulary** feature for the **LingoBreeze
 * Dependency Injection
 * Error handling and validation
 * Scalable backend API design
-* Firebase-powered authentication and storage
+* Firebase-powered storage
 
 ---
 ## Project Structure
 
 ```text
-lib/
- ├── models/
- │    └── journal_entry.dart
- ├── screens/
- │    ├── addentry_screen.dart
- │    ├── editentry_screen.dart
- │    ├── home_screen.dart
- │    └── login_screen.dart
- ├── services/
- │    ├── auth_services.dart
- │    └── firestore_services.dart
- ├── widgets/
- │    ├── custom_input_decoration.dart
- │    └── journal_card.dart
- ├── const.dart
- └── main.dart
+lingobreeze/
+├── backend/
+│   ├── package.json
+│   ├── server.js
+│   └── firebase-admin.json (you'll need to add this)
+├── flutter-app/
+│   ├── lib/
+│   │   ├── main.dart
+│   │   ├── core/
+│   │   │   ├── constants/
+│   │   │   │   └── app_constants.dart
+│   │   │   └── utils/
+│   │   │       └── error_handler.dart
+│   │   ├── data/
+│   │   │   ├── models/
+│   │   │   │   └── word_model.dart
+│   │   │   ├── datasources/
+│   │   │   │   └── word_remote_datasource.dart
+│   │   │   └── repositories/
+│   │   │       └── word_repository_impl.dart
+│   │   ├── domain/
+│   │   │   ├── entities/
+│   │   │   │   └── word.dart
+│   │   │   ├── repositories/
+│   │   │   │   └── word_repository.dart
+│   │   │   └── usecases/
+│   │   │       ├── get_words.dart
+│   │   │       └── save_word.dart
+│   │   ├── presentation/
+│   │   │   ├── pages/
+│   │   │   │   ├── my_vocabulary_page.dart
+│   │   │   │   └── add_word_page.dart
+│   │   │   ├── widgets/
+│   │   │   │   ├── word_card.dart
+│   │   │   │   ├── loading_widget.dart
+│   │   │   │   ├── empty_state_widget.dart
+│   │   │   │   └── error_widget.dart
+│   │   │   └── bloc/
+│   │   │       ├── word_bloc.dart
+│   │   │       ├── word_event.dart
+│   │   │       └── word_state.dart
+│   │   └── injection/
+│   │       └── dependency_injection.dart
+│   ├── pubspec.yaml
+│   └── README.md
+└── README.md
 
 ## Installation
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/my-vocabulary-lingobreeze.git
+git clone https://github.com/shiyascholayil/lingobreeze.git
 ```
 
 ### 2. Navigate to the project
 
 ```bash
-cd my-vocabulary-lingobreeze
+cd lingobreeze
 ```
 
 ### 3. Install dependencies
@@ -127,12 +149,10 @@ npm start
 Before running the project:
 
 1. Create a Firebase project
-2. Enable Firebase Authentication
-3. Enable Cloud Firestore
-4. Configure Firebase for Flutter
-5. Add `google-services.json` (Android)
-6. Add `GoogleService-Info.plist` (iOS)
-7. Update Firebase configuration files
+2. Enable Cloud Firestore
+3. Configure Firebase for Flutter
+4. Add `google-services.json` (Android)
+5. Update Firebase configuration files
 
 ---
 
@@ -144,7 +164,6 @@ Key learning areas include:
 
 * Flutter application development
 * Clean Architecture implementation
-* Firebase Authentication integration
 * Cloud Firestore database management
 * REST API development with Node.js
 * State management and scalable app structure
