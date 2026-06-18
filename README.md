@@ -21,6 +21,7 @@ A complete implementation of the **My Vocabulary** feature for the **lingobreeze
 * Node.js
 * Clean Architecture
 * Express.js
+* Firebase
 
 ---
 
