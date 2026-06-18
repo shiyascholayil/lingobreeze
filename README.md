@@ -1,4 +1,4 @@
-##lingobreeze
+## lingobreeze
 
 A complete implementation of the **My Vocabulary** feature for the **lingobreeze** language-learning app. This project demonstrates a production-ready vocabulary management system built with Clean Architecture principles, Firebase integration, and a scalable Node.js backend.
 
