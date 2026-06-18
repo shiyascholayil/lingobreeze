@@ -58,45 +58,45 @@ lingobreeze/
 │   ├── server.js
 │   └── firebase-admin.json (you'll need to add this)
 ├── flutter-app/
-│   ├── lib/
-│   │   ├── main.dart
-│   │   ├── core/
-│   │   │   ├── constants/
-│   │   │   │   └── app_constants.dart
-│   │   │   └── utils/
-│   │   │       └── error_handler.dart
-│   │   ├── data/
-│   │   │   ├── models/
-│   │   │   │   └── word_model.dart
-│   │   │   ├── datasources/
-│   │   │   │   └── word_remote_datasource.dart
-│   │   │   └── repositories/
-│   │   │       └── word_repository_impl.dart
-│   │   ├── domain/
-│   │   │   ├── entities/
-│   │   │   │   └── word.dart
-│   │   │   ├── repositories/
-│   │   │   │   └── word_repository.dart
-│   │   │   └── usecases/
-│   │   │       ├── get_words.dart
-│   │   │       └── save_word.dart
-│   │   ├── presentation/
-│   │   │   ├── pages/
-│   │   │   │   ├── my_vocabulary_page.dart
-│   │   │   │   └── add_word_page.dart
-│   │   │   ├── widgets/
-│   │   │   │   ├── word_card.dart
-│   │   │   │   ├── loading_widget.dart
-│   │   │   │   ├── empty_state_widget.dart
-│   │   │   │   └── error_widget.dart
-│   │   │   └── bloc/
-│   │   │       ├── word_bloc.dart
-│   │   │       ├── word_event.dart
-│   │   │       └── word_state.dart
-│   │   └── injection/
-│   │       └── dependency_injection.dart
-│   ├── pubspec.yaml
-│   └── README.md
+│      lib/
+│       ├── main.dart
+│       ├── core/
+│       │   ├── constants/
+│       │   │   └── app_constants.dart
+│       │   └── utils/
+│       │       └── error_handler.dart
+│       ├── data/
+│       │   ├── models/
+│       │   │   └── word_model.dart
+│       │   ├── datasources/
+│       │   │   └── word_remote_datasource.dart
+│       │   └── repositories/
+│       │       └── word_repository_impl.dart
+│       ├── domain/
+│       │   ├── entities/
+│       │   │   └── word.dart
+│       │   ├── repositories/
+│       │   │   └── word_repository.dart
+│       │   └── usecases/
+│       │       ├── get_words.dart
+│       │       └── save_word.dart
+│       ├── presentation/
+│       │   ├── pages/
+│       │   │   ├── my_vocabulary_page.dart
+│       │   │   └── add_word_page.dart
+│       │   ├── widgets/
+│       │   │   ├── word_card.dart
+│       │   │   ├── loading_widget.dart
+│       │   │   ├── empty_state_widget.dart
+│       │   │   └── error_widget.dart
+│       │   └── bloc/
+│       │       ├── word_bloc.dart
+│       │       ├── word_event.dart
+│       │       └── word_state.dart
+│       └── injection/
+│           └── dependency_injection.dart
+│   
+│   
 └── README.md
 
 ## Installation
