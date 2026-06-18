@@ -56,7 +56,7 @@ lingobreeze/
 ├── backend/
 │   ├── package.json
 │   ├── server.js
-│   └── firebase-admin.json (you'll need to add this)
+│   └── firebase-admin.json 
 ├── flutter-app/
 │      lib/
 │       ├── main.dart
