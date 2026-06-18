@@ -27,12 +27,12 @@ A complete implementation of the **My Vocabulary** feature for the **lingobreeze
 
 <table>
   <tr>
-    <td><img src="assets/screenshots/1.png" width="250"></td>
-    <td><img src="assets/screenshots/2.png" width="250"></td>
+    <td><img src="assets/screenshots/1.jpeg" width="250"></td>
+    <td><img src="assets/screenshots/2.jpeg" width="250"></td>
   </tr>
   <tr>
-    <td><img src="assets/screenshots/3.png" width="250"></td>
-    <td><img src="assets/screenshots/4.png" width="250"></td>
+    <td><img src="assets/screenshots/3.jpeg" width="250"></td>
+    <td><img src="assets/screenshots/4.jpeg" width="250"></td>
   </tr>
 </table>
 
