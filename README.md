@@ -20,6 +20,7 @@ A complete implementation of the **My Vocabulary** feature for the **lingobreeze
 * Cloud Firestore
 * Node.js
 * Clean Architecture
+* Express.js
 
 ---
 
