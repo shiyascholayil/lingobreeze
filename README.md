@@ -40,6 +40,16 @@ A complete implementation of the **My Vocabulary** feature for the **lingobreeze
 
 ---
 
+---
+
+## Demo Video
+
+[▶ Watch Demo Video](assets/video/demo-video.mp4)
+
+
+---
+
+
 ## Architecture Highlights
 
 * Feature-based project structure
